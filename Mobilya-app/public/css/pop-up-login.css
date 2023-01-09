@@ -1,0 +1,72 @@
+
+/*Trigger Button*/
+.login-trigger {
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 30px;
+    position: relative;
+    top: 50%;
+}
+
+/*Modal*/
+h4 {
+    font-weight: bold;
+    color: #545454;
+}
+.close {
+    color: #545454;
+    transform: scale(1.2)
+}
+.modal-content {
+    font-weight: bold;
+    /*background: linear-gradient(to bottom right,#F87E7B,#B05574);*/
+}
+.form-control {
+    margin: 1em 0;
+    background: #eeeeee;
+    border-radius: 8px;
+    border: 2px solid rgb(238, 238, 238);
+}
+.form-control:hover, .form-control:focus {
+    /*box-shadow: none;*/
+    border-color: #ff5000;
+}
+.username, .password {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 2px solid #eee;
+    padding-left: 0;
+    font-weight: normal;
+    background: transparent;
+}
+.form-control::-webkit-input-placeholder {
+    color: #545454;
+}
+.form-control:focus::-webkit-input-placeholder {
+    font-weight: bold;
+    color: #545454;
+}
+.login {
+    padding: 6px 20px;
+    border-radius: 20px;
+    background: none;
+    border: 2px solid #FAB87F;
+    color: #FAB87F;
+    font-weight: bold;
+    transition: all .5s;
+    margin-top: 1em;
+}
+.login:hover {
+    background: #FAB87F;
+    color: #545454;
+}
+.submit{
+    background: #ff5000;
+    color: #ffffef;
+    height: 56px;
+}
+.submit:hover{
+    background: #e35600;
+    color:#ffffef;
+}
